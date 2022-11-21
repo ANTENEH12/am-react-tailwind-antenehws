@@ -1,6 +1,7 @@
 import React from 'react'
 import Page from './Page'
 import {FaReact, FaHtml5, FaNodeJs} from 'react-icons/fa'
+import {TbBrandNextjs} from 'react-icons/tb'
 import {SiRedux} from "react-icons/si"
 import {TbBrandJavascript,TbBrandTailwind} from 'react-icons/tb'
 
@@ -15,31 +16,37 @@ const Experiance = () => {
         },
         {
             id:2,
+            icon: <TbBrandNextjs size={50} className='text-white'/>,
+            title:"Next.js",
+            subtitle: ""
+        },
+        {
+            id:3,
             icon: <SiRedux size={50} className='text-white'/>,
             title:"Redux",
             subtitle: ""
         },
         {
-            id:3,
+            id:4,
             icon: <FaHtml5 size={50} className='text-white'/>,
             title:"HTML5",
             subtitle: ""
            
         },
         {
-            id:4,
+            id:5,
             icon: <FaNodeJs size={50} className='text-white'/>,
             title:"Node.js",
             subtitle: ""
         },
         {
-            id:5,
+            id:6,
             icon: <TbBrandJavascript size={50} className='text-white'/>,
             title:"JavaScript",
             subtitle: ""
         },
         {
-            id:6,
+            id:7,
             icon: <TbBrandTailwind size={50} className='text-white'/>,
             title:"Tailwind css",
             subtitle: ""
